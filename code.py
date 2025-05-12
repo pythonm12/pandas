@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("C:/Users/ASHA/Downloads/adult.csv/adult.csv")
+df = pd.read_csv("path")
 
 # 1. How many men and women (sex feature) are represented in this dataset?
 gender_count = df['gender'].value_counts()
